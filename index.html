@@ -4,8 +4,327 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kankan</title>
-    <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
   </head>
   <body class="d-flex flex-column h-100">
+    <header id="header">
+      <nav class="navbar navbar-expand-lg navbar-light" aria-label="Offcanvas navbar large">
+        <div class="container justify-content-between">
+          <div class="offcanvas offcanvas-end flex-grow-0" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Gift</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a class="navbar-brand" href="#">
+            <img src="images/kankan-logo.png" alt="Kankan Logo" loading="lazy">
+          </a>
+          <div class="d-flex align-items-center ms-auto ms-lg-0 me-4">
+            <a href="#" class="basket"><i class="fas fa-shopping-basket me-2 fa-lg"></i> <span class="d-none d-md-inline-block">Basket</span></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div id="banner">
+      <div class="info text-white">
+        <div class="container">
+          <h1>A gift for mum at Christmas</h1>
+          <p class="lead mb-3 mb-md-5">Luxurious soaps in a can.<br>Give the worls’s first plastic-free <br>refill to your very best.</p>
+          <a href="#" class="btn btn-dark btn-lg text-uppercase">Shop Now</a>
+        </div>
+      </div>
+      <img src="images/body-wash-collection.jpg" class="w-100 h-auto" loading="lazy">
+    </div>
+    <div class="container py-5">
+      <div class="clearfix pb-0 pb-md-5"></div>
+      <h2 class="text-center mb-4">Everyone needs to be clean. We've just made it really lovely.</h2>
+      <p class="lead text-center mx-auto" style="max-width:750px;">Who wouldn’t want to be part of a revolution that feels this good? Add another sentence or two here to emphasise the benefits of the product and brand.</p>
+      <div class="clearfix pb-0 pb-md-5"></div>
+      <div class="row mx-auto gx-5" style="max-width:1000px;">
+        <div class="col-12 col-md-6 mb-5 mb-md-0">
+          <div class="px-3 text-center">
+            <img src="images/starter-set1.jpg" class="w-100 h-auto mb-4" loading="lazy">
+            <h5 class="text-center mb-3">Starter Set 1</h5>
+            <div class="stars mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <h6 class="mb-4">£15</h6>
+            <a href="#" class="btn btn-dark btn-lg text-uppercase">Buy Now</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="px-3 text-center">
+            <img src="images/hand-wash-mandarin7.jpg" class="w-100 h-auto mb-4" loading="lazy">
+            <h5 class="text-center mb-3">Starter Set 3</h5>
+            <div class="stars mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <h6 class="mb-4">£15</h6>
+            <a href="#" class="btn btn-dark btn-lg text-uppercase">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-5 mx-auto" style="max-width:1220px;">
+      <div class="row gx-5 pt-5">
+        <div class="col-12 col-md-6">
+          <div class="quote text-center">
+            <i class="fas fa-quote-left color-purple-light"></i>
+          </div>
+          <blockquote class="text-center">
+            <p>“This brand has clearly spent a long time thinking about all aspects of it’s business model, from it’s cleverly designed yet minimalist packaging to planting a tree with every can sold.”</p>
+            <cite>The Independent</cite>
+          </blockquote>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="quote text-center">
+            <i class="fas fa-quote-left color-pink-light"></i>
+          </div>
+          <blockquote class="text-center">
+            <p>“We tried the delicious smelling mandarin and clary sage. This hand soap certainly feels luxurious and a little goes a long way.”</p>
+            <cite>Evening Standard</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div class="container py-5">
+      <div class="row gx-5 d-flex flex-wrap">
+        <div class="col px-1 px-lg-5">
+          <img src="https://via.placeholder.com/150" alt="" class="w-100 h-auto rounded-circle">
+        </div>
+        <div class="col px-1 px-lg-5">
+          <img src="https://via.placeholder.com/150" alt="" class="w-100 h-auto rounded-circle">
+        </div>
+        <div class="col px-1 px-lg-5">
+          <img src="https://via.placeholder.com/150" alt="" class="w-100 h-auto rounded-circle">
+        </div>
+        <div class="col px-1 px-lg-5">
+          <img src="https://via.placeholder.com/150" alt="" class="w-100 h-auto rounded-circle">
+        </div>
+        <div class="col px-1 px-lg-5">
+          <img src="https://via.placeholder.com/150" alt="" class="w-100 h-auto rounded-circle">
+        </div>
+      </div>
+      <div class="clearfix pb-4"></div>
+    </div>
+    <div id="plastic-free" class="py-5">
+      <div class="container py-0 py-md-5">
+        <div class="row d-flex align-items-center">
+          <div class="col-12 col-md-4 offset-md-1 mb-5 mb-lg-0 text-center text-lg-start">
+            <div class="pe-4">
+              <h2 class="mb-4">Send it #plasticfree</h2>
+              <p class="mb-4">KANKAN is proud to partner with <br>Flexi-hex, a Cornish company equally motivated to make a big impact on removing single-use plastic from the oceans. Made from recycled paper, and water-based adhesive - this lightweight showstopper of packaging means it is totally biodegradable and home compostable. </p>
+              <a href="#" class="btn btn-dark btn-lg text-uppercase">Shop Now</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 offset-md-1">
+            <img src="images/plastic-free.jpg" loading="lazy" class="w-100 h-auto">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-5">
+      <div class="clearfix pb-4"></div>
+      <h2 class="text-center stars mb-4">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </h2>
+      <h5 class="text-center text-uppercase">5 Reviews</h5>
+      <div class="clearfix pb-5"></div>
+      <div class="row gx-5">
+        <div class="col-12 col-md-4 mb-5">
+          <div class="review text-center py-5 px-4">
+            <div class="stars mb-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="text-uppercase mb-1">Smells Amazing</p>
+            <div class="mb-4">
+              <small>Poppy F</small>
+            </div>
+            <p class="mb-0">So happy with my starter set! Love the design on the bottle and the body wash is so nice, smells amazing…</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5">
+          <div class="review text-center py-5 px-4">
+            <div class="stars mb-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="text-uppercase mb-1">Smells Amazing</p>
+            <div class="mb-4">
+              <small>Poppy F</small>
+            </div>
+            <p class="mb-0">So happy with my starter set! Love the design on the bottle and the body wash is so nice, smells amazing…</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5">
+          <div class="review text-center py-5 px-4">
+            <div class="stars mb-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="text-uppercase mb-1">Smells Amazing</p>
+            <div class="mb-4">
+              <small>Poppy F</small>
+            </div>
+            <p class="mb-0">So happy with my starter set! Love the design on the bottle and the body wash is so nice, smells amazing…</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5">
+          <div class="review text-center py-5 px-4">
+            <div class="stars mb-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="text-uppercase mb-1">Smells Amazing</p>
+            <div class="mb-4">
+              <small>Poppy F</small>
+            </div>
+            <p class="mb-0">So happy with my starter set! Love the design on the bottle and the body wash is so nice, smells amazing…</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5">
+          <div class="review text-center py-5 px-4">
+            <div class="stars mb-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="text-uppercase mb-1">Smells Amazing</p>
+            <div class="mb-4">
+              <small>Poppy F</small>
+            </div>
+            <p class="mb-0">So happy with my starter set! Love the design on the bottle and the body wash is so nice, smells amazing…</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5">
+          <div class="review text-center py-5 px-4">
+            <div class="stars mb-3">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="text-uppercase mb-1">Smells Amazing</p>
+            <div class="mb-4">
+              <small>Poppy F</small>
+            </div>
+            <p class="mb-0">So happy with my starter set! Love the design on the bottle and the body wash is so nice, smells amazing…</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="plastic-free" class="py-5">
+      <div class="container py-0 py-md-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-12 col-md-5 offset-md-1 mb-5 mb-lg-0">
+            <img src="images/plastic-free.jpg" loading="lazy" class="w-100 h-auto">
+          </div>
+          <div class="col-12 col-md-4 offset-md-1 text-center text-lg-start">
+            <div class="pe-4">
+              <h2 class="mb-4">Tree Planting</h2>
+              <p class="mb-4">KANKAN is proud to partner with <br>Flexi-hex, a Cornish company equally motivated to make a big impact on removing single-use plastic from the oceans. Made from recycled paper, and water-based adhesive - this lightweight showstopper of packaging means it is totally biodegradable and home compostable. </p>
+              <a href="#" class="btn btn-dark btn-lg text-uppercase">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-5" style="max-width:1200px;">
+      <div class="py-3">
+        <img src="images/collage.png" loading="lazy" class="w-100 h-auto">
+      </div>
+    </div>
+    <footer id="footer" class="pt-5 pb-4 text-light text-center text-lg-start">
+      <div class="container pt-4">
+        <div class="row">
+          <div class="col-12 col-md-3 mb-5 mb-lg-0">
+            <img src="https://via.placeholder.com/150x80" alt="">
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <div class="col-12 col-md-4 mb-4 mb-lg-0">
+                <h6 class="text-uppercase mb-1">Shop</h6>
+                <ul>
+                  <li><a href="#">Refills</a></li>
+                  <li><a href="#">Starter Sets</a></li>
+                  <li><a href="#">Gifts</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-4 mb-4 mb-lg-0">
+                <h6 class="text-uppercase mb-1">About</h6>
+                <ul>
+                  <li><a href="#">Our Purpose</a></li>
+                  <li><a href="#">Business Impact</a></li>
+                  <li><a href="#">Why The Can?</a></li>
+                  <li><a href="#">How It Works</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-4 mb-5 mb-lg-0">
+                <h6 class="text-uppercase mb-1">Quick Links</h6>
+                <ul>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Shipping</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <h6 class="text-white mb-3">Subscribe</h6>
+            <div class="input-group">
+              <input type="text" class="form-control bg-dark rounded-0" placeholder="" aria-label=" aria-describedby="button-addon2">
+              <button class="btn btn-light px-4" type="button" id="button-addon2">Join</button>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix pb-5"></div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="social">
+              <i class="fab fa-facebook me-2"></i>
+              <i class="fab fa-instagram me-2""></i>
+              <i class="fab fa-pinterest me-2""></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 text-center text-lg-end">Site by Drive Digital</div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/8c9da7e2cd.js" crossorigin="anonymous"></script>
   </body>
 </html>
